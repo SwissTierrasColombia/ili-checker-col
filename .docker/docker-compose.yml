@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  ili_cheker_col_app:
+    image: "ili-cheker-col_image"
+    network_mode: "host"
+    build: ../.
+    restart: on-failure
+    ports:
+      - ${NEXTJS_PORT}:3000
+    environment:
+      - API_BASE_URL=${API_BASE_URL}

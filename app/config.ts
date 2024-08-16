@@ -1,0 +1,13 @@
+export const BASE_URL = process.env.API_BASE_URL; // URL conection service backend, example: http://localhost:8000
+export const BASE_URL_PUBLIC = process.env.NEXT_PUBLIC_API_BASE_URL;
+export const PATH_UPLOAD_FILE = 'file/';
+export const PATH_TOKEN = 'token/';
+export const PATH_TASKS = 'tareas/';
+export const PATH_MODELS = 'modelos/';
+export const PATH_RULES = 'regla/';
+export const PATH_GET_TASK_FOR_USER = 'get_task_for_user/';
+export const PATH_GET_RULES_FOR_MODEL = 'get_rules_for_model/<pk>/';
+export const PATH_USER_IS_ADMIN = 'user_is_admin/';
+export const PATH_INFO_USER = 'get_info_user/';
+export const PATH_GET_REPORT_PDF = 'get_report_pdf/<pk>/';
+export const PATH_GET_LOG = 'get_report_log/<pk>/';
